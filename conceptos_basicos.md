@@ -1,15 +1,17 @@
 # Conceptos basicos de python
 
-## declaracion de variables
+### declaracion de variables
 ~~~
 numero1 = 10
 numero2 = 20
 ~~~
 
 ### declaracion de metodos
+~~~
 def suma(num1, num2):
     resultado = num1 + num2
     print "el resultado de la suma es: ",resultado
+~~~
 
 suma(5, 19)
 
@@ -20,26 +22,37 @@ def resta(num1, num2):
     resultado = num1 - num2
     print "El resultado de la resta es: "+str(resultado)
 
-# metodos incluidos
+### metodos incluidos
 print pow(2,3)
 
-# str convertir a string
-resta(10, 5)
+### str convertir a string
+~~~
+print str(resta(10, 5))
+~~~
 
-# eliminar una variable
+### eliminar una variable
+~~~
 del numero1
+~~~
 
-# Listas
+### Listas
+~~~
 miLista = [1, 2, 3, "texto1", "texto2", ["texto de otra lista", 1, 2]]
 
 print(miLista)
 print(miLista[0])
+~~~
 
-# Tuplas --no pueden ser modificadas
+### Tuplas 
+*no pueden ser modificadas*
+~~~
 miTupla = (1, 2, 3)
 print(miTupla)
 print(miTupla[2])
+~~~
 
-# Diccionario
+#### Diccionario
+~~~
 miDiccionario = {"nombre": "carlos", "apellido": "perez", "edad": 10}
 print(miDiccionario["edad"])
+~~~
